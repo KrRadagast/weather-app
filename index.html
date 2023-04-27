@@ -1,0 +1,45 @@
+<link rel="stylesheet" href="./style.css" /><link />
+<h1>Weather App</h1>
+<body>
+  <div class="container">
+    <form class="row center">
+      <div class="col s12 m12 l12 center">
+        <label for="city">City</label>
+        <input type="text" id="city" name="city" class="center" />
+        <label for="State">State</label>
+        <input type="text" id="state" name="state" class="center" />
+        <label for="Country">Country</label>
+        <input type="text" id="country" name="country" class="center" />
+        <label for="submit">Submit</label>
+        <button type="text" id="submit">Submit</button>
+        <p>
+          <label>
+            <input
+              id="checkbox"
+              type="checkbox"
+              class="filled-in"
+              checked="checked"
+            />
+            <span>Save Area</span>
+          </label>
+        </p>
+      </div>
+    </form>
+  </div>
+  <div>
+    <span id="cityName"></span>
+    <span id="stateName"></span>
+    <span id="CountryName"></span>
+    <span id="weather"></span>
+    <p id="temp"></p>
+    <img id="Icon" alt="weatherIcon" />
+    <a></a>
+  </div>
+  <div>
+    <ul id="saved">
+      
+    </ul>
+  </div>
+</body>
+
+<script src="./app.js"></script>
